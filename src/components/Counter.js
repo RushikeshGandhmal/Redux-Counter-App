@@ -18,6 +18,7 @@ const Counter = () => {
 
   const decrementHandler = () => {
     dispatch(counterActions.decrement());
+    
   };
 
   const toggleCounterHandler = () => {
