@@ -6,6 +6,7 @@ const Auth = () => {
   const dispatch = useDispatch();
 
   const loginSubmitHandler = (event) => {
+    
     event.preventDefault();
 
     dispatch(authActions.login());
